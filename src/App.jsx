@@ -27,7 +27,7 @@ const skillData = [
   { name: "Customer-Driven Development & Co-Creation", level: 95, description: "Ability to facilitate high-impact workshops, lead co-creation processes, and transform customer needs into tangible applied research objectives." },
   { name: "Stakeholder Relations & Partnership Building", level: 90, description: "Proven B2B client engagement expertise and a business-driven approach to research. Specialized in managing complex internal stakeholders (Sydänliitto, Aalto, VTT background) to align research content perfectly with external funding and partnership proposal needs." },
   { name: "Project Management & Data Utilization", level: 93, description: "Strong track record of leading projects (e.g., CRM project at Sydänliitto) and also a Foundation Certificate in Project management by PRY/IPMA from 2025." },
-  { name: "Applied Research & Communication", level: 87, description: "Proven ability to produce academic text and distill complex ideas. You may contact Hanna-Maija Määttä or Johanna Leväsluoto for more information" }
+  { name: "Applied Research & Communication", level: 87, description: "Proven ability to produce academic text and distill complex ideas. You may contact Hanna-Maija Tuovila or Johanna Leväsluoto for more information" }
 ];
 const missionData = [
   { id: 1, title: "Mission 001: CRM & Data Initiative", period: "2023–Present", role: "Project Manager (Sydänliitto)", icon: '💡', achievement: "Leading a comprehensive CRM and data modernization project to leverage data more effectively in fundraising, government-funded projects, customer services and customer relations." },
@@ -206,7 +206,7 @@ const StartScreen = ({ onStart }) => (
         The VTT Recruitment Challenge
       </p>
       <p className="text-base text-gray-300 mb-12">
-        <span className="block italic mb-2">Attention, Research Team Leader Kirsi-Maria Hyytinen!</span>
+        <span className="block italic mb-2">Attention, Research Team Leader Kirsi Hyytinen!</span>
         The future is unstable. Execute this challenge by November 16, 2025, or societal resilience levels may drop below critical thresholds.
       </p>
       <button
