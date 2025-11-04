@@ -170,7 +170,7 @@ const ProgressBar = ({ name, level, description }) => (
         title={`${name}: ${level}%`}
       ></div>
     </div>
-    <p className="text-xs text-gray-400 mt-2 italic">{description}</p>
+    <p className="text-sm text-gray-400 mt-2 italic">{description}</p>
   </div>
 );
 
@@ -183,7 +183,7 @@ const MissionCard = ({ mission }) => (
         </div>
         <div>
           <h3 className="text-xl font-bold text-blue-300">{mission.title}</h3>
-          <p className="text-xs text-gray-400 uppercase tracking-wider">{mission.period} · {mission.role}</p>
+          <p className="text-sm text-gray-400 uppercase tracking-wider">{mission.period} · {mission.role}</p>
         </div>
       </div>
       <p className="text-sm text-gray-200 mt-4 pt-4 border-t border-gray-700">
@@ -444,7 +444,7 @@ const MissionMapScreen = ({ onAllMissionsComplete }) => {
                   <div className="w-12 h-12 rounded-full bg-red-600 border-4 border-red-300 flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
                     <span className="text-white font-bold text-xl">!</span>
                   </div>
-                  <span className="relative -bottom-2 w-max bg-black/70 text-white text-xs rounded px-2 py-0.5">
+                  <span className="relative -bottom-2 w-max bg-black/70 text-white text-sm rounded px-2 py-0.5">
                     {challenge.name}
                   </span>
                 </button>
