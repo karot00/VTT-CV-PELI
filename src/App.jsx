@@ -67,7 +67,7 @@ const cityChallenges = [
   {
     id: 'challenge1',
     name: 'Critical System Failure: Profile Integrity',
-    position: { top: '55%', left: '30%' },
+    position: { top: '55%', left: '40%' },
     challenge: 'Our future-proof society is at danger. We need someone experienced in research and innovation, who can combine customer work with applied research to create real-world impact. And to make this even more tricky: that someone needs to be highly motivated to work in EU-funded projects and multidisciplinary teams.',
     solution: 'Solution Deployed: Your hero has a VTT background and his academic publications confirm core research experience. Aalto University experience proves the ability to merge client-driven demands with research goals, and his Project Manager role (CRM, data-platform) confirms the capability to lead complex, multidisciplinary initiatives required for the mission. Core challenges neutralized.',
   },
